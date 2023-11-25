@@ -1,0 +1,304 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Estilo de la caja contenedora principal */
+#caja-contenedora {
+    width: 100%; 
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px; /* Agregado para separación visual */
+    background-color: #f2f2f2; /* Color de fondo para la caja contenedora */
+}
+
+/* Estilo del contenedor principal */
+#contenedor-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+/* Estilo del encabezado */
+#encabezado {
+    width: 100%; 
+    max-width: 1100px;
+    height: 120px;
+    background-color: #3498db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto; 
+   }
+
+#titulo {
+    width: 100%; 
+    max-width: 1100px;
+    font-size: 35px;
+    color: #fff;
+}
+
+#barra-busqueda {
+    width: 100%; 
+    max-width:1100px;
+    width: 120px;
+    height: 20px;
+    background-color: #fff;
+}
+
+/* Estilo del menú principal */
+#menu-principal {
+    width: 100%; 
+    max-width: 1100px;
+    height: 68px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto;
+}
+
+#menu-principal a {
+    width: 100%; 
+    max-width:1100px;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 0 auto; 
+    font-size: 20px;
+}
+
+/* Estilo de la imagen principal */
+#imagen-principal {
+    width: 100%; 
+    max-width: 1100px;
+    height: 600px;
+    background-image: url('ruta-de-tu-imagen.jpg');
+    background-size: cover;
+    margin: 0 auto;
+}
+
+/* Estilo del texto de introducción */
+#texto-intro {
+    width: 100%;
+    max-width: 1100px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+#texto-intro p {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-size: 19px;
+    line-height: 1.5;
+    color: #333;
+    }
+
+/* Estilo del contenedor de rectángulos */
+#contenedor-rectangulos {
+    display: flex;
+   width: 100%; /* O el ancho que desees */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px; /
+}
+
+.rectangulo {
+    width: 550px;
+    height: 1020px;
+    background-color: #f2f2f2;
+
+}
+
+/* Estilo de la sección "Sobre mí" */
+#sobre-mi-titulo {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+#sobre-mi-parrafo {
+    margin-bottom: 20px;
+    font-size: 20px;
+   }
+#video {
+    width: 512px;
+    height: 300px;
+    margin-bottom: 25px;
+}
+
+#imagen-silueta {
+    width: 512px;
+    height: 300px;
+    background-image: url('ruta-de-tu-imagen-silueta.jpg');
+    background-size: cover;
+    margin-bottom: 20px;
+    position: relative;
+    top: -80px; 
+    left: 8px;
+}
+/* Estilo del rectángulo de buceo */
+#rectangulo-buceo {
+     background-color: #f2f2f2;
+    width: 100%; /* O el ancho que desees */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px; 
+    }
+
+#imagen-buceo {
+    width: 500px;
+    height: 300px;
+    background-image: url('ruta-de-tu-imagen-buceo.jpg');
+    background-size: cover;
+    position: relative;
+    top: 10px; 
+    left: 5px; 
+}
+/* Estilos de los subtítulos de destinos y experiencias */
+#subtitulo-destinos, #subtitulo-experiencias {
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+    width: 100%; /* O el ancho que desees */
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px; 
+    font-size: 25px;
+}
+#parrafo-destinos, #parrafo-experiencias {
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+/* Estilo del formulario de contacto */
+#formato-contacto {
+    width: 500px;
+    text-align: left;
+    margin: 30px auto;
+    position: relative; /* Aplicando posición relativa a este elemento */
+}
+
+#nombre, #correo-electronico {
+    width: 100%; 
+    height: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#boton-enviar {
+    width: 50%;
+    height: 35px;
+    background-color: #3498db;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+/* Estilo de las redes sociales */
+#redes-sociales {
+    width: 100%;
+    max-width: 1024px;
+    height: 100px;
+    text-align: center;
+    margin: 20px auto;
+    /* Otros estilos */
+}
+
+.red-social {
+    width: 50px;
+    height: 50px;
+    background-color: #3498db;
+    display: inline-block;
+    margin: 0 10px;
+    border-radius: 50%;
+    font-size: 35px;
+    line-height: 50px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+/* Utiliza "Font1" para los encabezados */
+h1, h2, h3 {
+    font-family: 'Playfair Display', sans-serif;
+}
+/* Utiliza "Font2" para el texto del cuerpo */
+p {
+    font-family: 'Crimson Text', sans-serif;
+}
+/* Media Query 1 - 480px o menos */
+@media (max-width: 480px) {
+    body {
+        font-size: 20px;
+        background-color: #f2f2f2; 
+    }
+
+    #encabezado {
+        width: 100%;
+        height: 200px;
+        padding: 10px; 
+    }
+
+    #menu-principal {
+        height: 50px;
+        flex-direction: column;
+        background-color: #eee; 
+    }
+}
+
+/* Media Query 2 - 768px o menos */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        color: #444; /
+    }
+
+    #contenedor-rectangulos {
+        flex-direction: column;
+        background-color: #ccc; 
+        
+    }
+
+    #texto-intro p {
+        font-size: 16px;
+        margin: 8px; 
+    }
+
+}
+
+/* Media Query 3 - 1024px o menos */
+@media (max-width: 1024px) {
+    body {
+        font-size: 18px;
+        line-height: 1.6; 
+    }
+
+    #imagen-principal {
+        height: 400px;
+        border: 1px solid #000; 
+    }
+
+    #menu-principal a {
+        margin: 0 10px;
+        text-decoration: underline; 
+    }
+}
+/* Media Query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    #contenedor-principal {
+        align-items: center; /* Mantiene el centrado de los elementos */
+    }
+    #encabezado, #menu-principal, #imagen-principal, #texto-intro {
+        width: 100%;
+        max-width: 1100px;
+        margin: 12px;
+    }
+}
